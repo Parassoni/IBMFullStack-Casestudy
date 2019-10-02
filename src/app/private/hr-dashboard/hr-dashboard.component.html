@@ -1,0 +1,48 @@
+<div *ngIf ='show'>
+  <app-card [profiles] = 'profiles'></app-card>
+</div>
+<div class="container-fluid" style="padding-top: 100px">
+<div class="col-md-12">
+  <div  class='panel panel-primary' >
+        <div class='panel-body'>
+
+    <br>
+    <div class='table-responsive'>
+    <table class="table table-dark">
+    <thead>
+    <tr>
+      <th>Employee Id</th>
+    <th>FirstName</th>
+    <th>LastName</th>
+    <th>Role</th>
+    <th>State</th>
+
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr  *ngFor="let data of  profiles">
+
+    <td>{{ data.employeeId }}</td>
+    <td>{{ data.firstname }}</td>
+    <td>{{data.lastname}}</td>
+    <td>{{ data.role }}</td>
+    <td>{{data.isActive ? 'Active' : 'InActive'}}</td>
+    <td>
+  <button type="button" class="btn btn-info"  (click) = 'Absent(data,data.employeeId,data.isAbsentee)'>{{data.isAbsentee ? 'Absent' : 'Present'}}</button>
+</td>
+  <td>
+  <button type="button" class="btn btn-info" (click) = 'Tardy(data,data.employeeId,data.isTardy)'>{{data.isTardy ? 'Tardy' : 'UnTardy'}}</button>
+</td>
+  <td>
+    <button type="button" class="btn btn-info" (click) = 'Punctual(data,data.employeeId,data.isPunctual)'>{{data.isPunctual ? 'Punctual' : 'Not Punctual'}}</button>
+  </td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+

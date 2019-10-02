@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "employeeId": 1,
+      "username": "mitrasish",
+      "password": "12345",
+      "firstname": "Mitrasish",
+      "lastname": "Mukherjee",
+      "role": "Admin",
+      "isActive": true,
+      "isActivated": true,
+      "isTardy": false,
+      "isPunctual": true,
+      "isAbsentee": false
+    },
+    {
+      "employeeId": 2,
+      "username": "vedraj",
+      "password": "23456",
+      "firstname": "Ved Raj",
+      "lastname": "Joshi",
+      "role": "HR",
+      "isActive": true,
+      "isActivated": true,
+      "isTardy": false,
+      "isPunctual": true,
+      "isAbsentee": false
+    },
+    {
+      "employeeId": 3,
+      "username": "sahil",
+      "password": "34567",
+      "firstname": "Sahil",
+      "lastname": "Kumar",
+      "role": "Employee",
+      "isActive": false,
+      "isActivated": true,
+      "isTardy": true,
+      "isPunctual": false,
+      "isAbsentee": false
+    },
+    {
+      "employeeId": 4,
+      "username": "paras",
+      "password": "45678",
+      "firstname": "Paras",
+      "lastname": "Singh",
+      "role": "Employee",
+      "isActive": false,
+      "isActivated": true,
+      "isTardy": false,
+      "isPunctual": true,
+      "isAbsentee": false
+    },
+    {
+      "employeeId": 5,
+      "username": "prasanna",
+      "password": "56789",
+      "firstname": "Prasanna",
+      "lastname": "Kumar",
+      "role": "Employee",
+      "isActive": false,
+      "isActivated": true,
+      "isTardy": false,
+      "isPunctual": false,
+      "isAbsentee": true
+    },
+    {
+      "employeeId": 6,
+      "username": "surbi",
+      "password": "67890",
+      "firstname": "Surbhi",
+      "lastname": "Gupta",
+      "role": "Employee",
+      "isActive": false,
+      "isActivated": false,
+      "isTardy": false,
+      "isPunctual": true,
+      "isAbsentee": false
+    },
+    {
+      "employeeId": 7,
+      "username": "tanish",
+      "password": "1234",
+      "firstname": "Tanish",
+      "lastname": "Garg",
+      "role": "Employee",
+      "isActive": false,
+      "isActivated": false,
+      "isTardy": false,
+      "isPunctual": true,
+      "isAbsentee": false
+    },
+    {
+      "employeeId": 8,
+      "username": "Priya",
+      "password": "Priya123",
+      "firstname": "Priya",
+      "lastname": "Raghuvanshi",
+      "role": "Admin",
+      "isActive": true,
+      "isActivated": true,
+      "isTardy": true,
+      "isPunctual": false,
+      "isAbsentee": false
+    }
+  ]
+}
