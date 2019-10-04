@@ -34,7 +34,7 @@ profiles: IProfile[];
 // tslint:disable-next-line:align
     } );
     this.LoginForm = this.fb.group({
-      username: ['', [ Validators.required, Validators.email]],
+      username: ['', [ Validators.required]],
       password: ['', Validators.required],
   });
 
